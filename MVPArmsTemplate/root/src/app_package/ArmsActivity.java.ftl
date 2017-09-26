@@ -18,7 +18,9 @@ import ${packageName}.R;
 
 import static com.jess.arms.utils.Preconditions.checkNotNull;
 
-
+/**
+ * ${pageDescribe}
+ */
 public class ${pageName}Activity extends BaseActivity<${pageName}Presenter> implements ${pageName}Contract.View {
 
 

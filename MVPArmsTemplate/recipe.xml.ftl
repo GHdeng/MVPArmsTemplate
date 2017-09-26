@@ -35,7 +35,6 @@
 <#if needPresenter>
     <instantiate from="root/src/app_package/ArmsPresenter.java.ftl"
                    to="${projectOut}/src/main/java/${slashedPackageName(presenterPackageName)}/${pageName}Presenter.java" />
-    <open file="${projectOut}/src/main/java/${slashedPackageName(presenterPackageName)}/${pageName}Presenter.java" />
 </#if>
 
 <#if needModel>

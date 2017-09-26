@@ -12,7 +12,9 @@ import javax.inject.Inject;
 import ${contractPackageName}.${pageName}Contract;
 
 
-
+/**
+* ${pageDescribe}
+*/
 @ActivityScope
 public class ${pageName}Presenter extends BasePresenter<${pageName}Contract.Model, ${pageName}Contract.View> {
     private RxErrorHandler mErrorHandler;

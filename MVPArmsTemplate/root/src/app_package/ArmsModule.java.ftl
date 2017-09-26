@@ -8,7 +8,9 @@ import dagger.Provides;
 import ${contractPackageName}.${pageName}Contract;
 import ${modelPackageName}.${pageName}Model;
 
-
+/**
+* ${pageDescribe}
+*/
 @Module
 public class ${pageName}Module {
     private ${pageName}Contract.View view;

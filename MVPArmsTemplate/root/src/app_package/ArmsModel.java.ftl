@@ -10,7 +10,9 @@ import javax.inject.Inject;
 
 import ${contractPackageName}.${pageName}Contract;
 
-
+/**
+* ${pageDescribe}
+*/
 @ActivityScope
 public class ${pageName}Model extends BaseModel implements ${pageName}Contract.Model{
     private Gson mGson;

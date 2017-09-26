@@ -20,7 +20,9 @@ import ${packageName}.R;
 
 import static com.jess.arms.utils.Preconditions.checkNotNull;
 
-
+/**
+* ${pageDescribe}
+*/
 public class ${pageName}Fragment extends BaseFragment<${pageName}Presenter> implements ${pageName}Contract.View{
 
 
